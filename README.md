@@ -3,7 +3,9 @@ A python application aimed to make easier the tedious task of logging time for R
 
 ## Purpose
 
-My experience so far, working as software developer for different comapnies indicates that, for most of the project management approaches, the developer must report how much time he or she took to fix a bug, implement a change or a new functionality.
+My experience so far, working as software developer for different comapnies indicates that:
+
+For most of the project management approaches, the developer must report how much time he or she took to fix a bug, implement a change or a new functionality.
 Being, on the other hand, version control systems a practial need for code management implies spending some time writing change descriptions and using them as messages for each code commit/version/...
 
 Thus, SW developers trend to write at least two descriptions for each task we complete:
