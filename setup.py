@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='git2mine',
-      version='0.1',
+      version='0.2',
       description=("A python application aimed to make easier the tedious task of logging time for Redmine tasks"
                    " by extracting information from GIT commits comments"),
       url='http://github.com/pfcoperez/git2mine',
