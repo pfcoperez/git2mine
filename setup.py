@@ -10,6 +10,7 @@ setup(name='git2mine',
       license='GPLV2',
       packages=['git2mine'],
       install_requires=[
+        'PyGObject',
         'PyGTK',
         'GitPython',
         'pyredmine'
