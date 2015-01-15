@@ -1,14 +1,15 @@
 #!/usr/bin/python2
-import pdb
 
 import gtk
-import gobject
-import gitReader
-import threading
-import redmineWriter
 import time
+import gobject
+import threading
+from git2mine import gitReader
+from git2mine import redmineWriter
 
-ifaceDescPath = "./frontend/git2mine.glade"
+from os.path import abspath,dirname
+
+ifaceDescPath = abspath(dirname(__file__) + "/frontend/git2mine.glade")
 
 gobject.threads_init()
 
@@ -335,7 +336,5 @@ loader.connect_signals(SignalsHandler())
 
 mainWindow = loader.get_object("mainWindow")
 mainWindow.show_all()
-
-#pdb.set_trace()
 
 gtk.main()

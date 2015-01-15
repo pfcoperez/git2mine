@@ -4,8 +4,6 @@ import git #Requires GitPython (http://pythonhosted.org/GitPython/0.3.2)
 import re
 import datetime
 
-import pdb
-
 __deultRegExp = r"\[\s*(?P<change_type>(CI|NF|BUG|INT))\s*\]\s*(\<\s*(?P<time>\d+)(?P<time_unit>(m|h))?\s*\>)?\s*(?P<task_id>\d+)\s*\:\s*(?P<description>.+)"
 
 __reProc = re.compile(__deultRegExp)
