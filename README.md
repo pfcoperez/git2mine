@@ -45,7 +45,7 @@ NF, BUG, CI and INT stand for:
 ## Known issues (Hopefully to be  fixed soon)
 
 - The connection parammeters to the Redmine server has been always tested providing the user REST key you can get at **http://YOUR_REDMINE_URL/my/account**. It doesn't seem to work with user/password identification.
-- After clicking at "Check, apply and load Activities" button, the application GUI hangs until the connection has been *stablished*
+- After clicking at "Check, apply and load Activities" button, the application GUI hangs until the connection has been *established*
 
 
 [GIT]:http://git-scm.com/
