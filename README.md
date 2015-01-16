@@ -3,7 +3,7 @@ A python application aimed to make easier the tedious task of logging time for R
 
 ## Purpose
 
-My experience so far, working as software developer for different companies indicates that:
+My experience so far, working as software developer for different companies, indicates that:
 
 For most of the project management approaches, the developer must report how much time he or she took to fix a bug, implement a change or a new functionality.
 Being, on the other hand, version control systems a practical need for code management implies spending some time writing change descriptions and using them as messages for each code commit/version/...
@@ -14,7 +14,7 @@ Thus, SW developers trend to write at least two descriptions for each task we co
   2. A time log entry for the project management system.
   
 Personally, I found myself writing essentially the same text for (1) and (2) and that's the reason I decided to write a little script aimed to mine the messages registered at the VCS (1) and use them as time reports for the issue tracker (2).
-Being [GIT] and [Redmine] the VCS and project management tool I interact with at work I wrote my script for working with them.
+Being [GIT] and [Redmine] the VCS and project management tools I interact with at work I wrote my script for working with them.
 
 ## How does it work?
 
@@ -22,7 +22,7 @@ First, once the application has been installed in your system using PyPi's **pip
 
     mineCommits
 
-Obviously, the application won't be creative concerning your spent time and issue id, its user must add some suggar to her/his commit messages. This is the format currently recognized expressed as a (roughly simplified) regular expression:
+Obviously, the application won't be creative concerning your spent times and issue ids, its user must add some suggar to her/his commit messages. This is the format currently recognized expressed as a (roughly simplified) regular expression:
 
     [CI|NF|BUG|INT] <\d+(h|m)> \d+ : .+
 
